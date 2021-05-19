@@ -10,22 +10,6 @@ export default {
   components: {
     TheHeader,
     TheResources
-  },
-  provide: {
-    storedResources: [
-      {
-        id: 'official-guide',
-        title: 'Official guide',
-        description: 'The official Vue.js documentation.',
-        link: 'https://vuejs.org'
-      },
-      {
-        id: 'google',
-        title: 'Google',
-        description: 'Learn to google.',
-        link: 'https://google.com'
-      }
-    ]
   }
 };
 </script>
